@@ -33,26 +33,9 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Then open the local URL shown in the terminal (usually http://localhost:8501).
 
-## Notes
 
-- On first run, NLTK datasets are downloaded (`gutenberg`, `punkt`, `punkt_tab`).
-- `ngram.py` includes print-based exploratory output and evaluation code that runs at import time.
 
-## How to Push to GitHub
-
-If this is your first push from this folder:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-```
-
-Create a new empty GitHub repository (without README/license/gitignore), then connect and push:
-
-```bash
 git branch -M main
 git remote add origin https://github.com/<your-username>/<your-repo-name>.git
 git push -u origin main
